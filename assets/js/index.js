@@ -43,7 +43,6 @@ const renderAvatar = (user) => {
     $(".text-avatar").html(firstName);
   }
 };
-
 // 退出登录
 $("#btnLogout").click(() => {
   layui.layer.confirm(
@@ -57,6 +56,5 @@ $("#btnLogout").click(() => {
     }
   );
 });
-
 // 调用 getUserInfo 函数获取用户基本信息
 getUserInfo();
